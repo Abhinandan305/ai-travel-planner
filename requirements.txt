@@ -1,0 +1,13 @@
+crewai
+langchain
+langchain-community
+chromadb
+sentence-transformers
+fastapi
+uvicorn
+streamlit
+requests
+reportlab
+python-dotenv
+ollama
+pydantic
