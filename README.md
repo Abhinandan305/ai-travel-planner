@@ -11,7 +11,9 @@ An AI-powered travel planner that generates personalized multi-day itineraries u
 🌦 Weather-aware suggestions (optional integration)
 📄 Downloadable PDF itinerary
 ☁️ Cloud deployment on AWS EC2
+
 🧠 System Architecture
+
                         ┌────────────────────┐
                         │   Streamlit UI     │
                         │  (Frontend Layer)  │
@@ -54,6 +56,7 @@ Memory: ChromaDB (vector storage)
 LLM: Ollama / OpenAI (configurable)
 Cloud: AWS EC2 (Ubuntu)
 Other: REST APIs, PDF generation, Linux server setup
+
 ⚙️ Installation
 1. Clone repository
 git clone https://github.com/your-username/ai-travel-planner.git
@@ -76,17 +79,20 @@ HTTPS: 443
 API: 8000
 Backend runs using:
 uvicorn api.main:app --host 0.0.0.0 --port 8000
+
 🧩 Key Challenges Solved
 Fixed Python environment conflicts (3.13 → 3.11 migration)
 Resolved AI dependency issues (CrewAI, LangChain, ChromaDB)
 Managed EC2 disk and memory limitations
 Handled REST communication between frontend and backend
 Debugged multi-agent workflow execution issues
+
 📸 Example Output
 Day-wise itinerary generation
 Budget breakdown per activity
 Travel route optimization
 Food and attraction recommendations
+
 🔮 Future Improvements
 Real-time flight & hotel API integration
 Map-based itinerary visualization
